@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.calc {
+  padding-top: 1em;
+  background-color: black;
+  border-radius: 20px;
+}
+button {
+  padding: 1em;
+  font-size: 1.3rem;
+  border-color: grey;
+  border: 2px solid black;
+  box-shadow: 0 0 10px rgb(88, 87, 87);
+  border-radius: 100%;
+  margin: 0.8em;
+}
+.fourth {
+  background-color: darksalmon;
+}
+.margin-l {
+  margin: 2em;
+}
+p {
+  text-align: right;
+  margin: 1em;
+}
