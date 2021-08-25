@@ -87,8 +87,8 @@ function App() {
 
   return (
     <section className={style.calc}>
-      <p className={style.upperNum}>{upperNum}</p>
-      <p className={style.lowerNum}>{lowerNum}</p>
+      <p className={style.uppernum}>{upperNum}</p>
+      <p className={style.lowernum}>{lowerNum}</p>
       <section>
         <Button
           text="AC"

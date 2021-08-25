@@ -36,13 +36,13 @@ p {
   margin: 0.6em;
   background-color: darksalmon;
 }
-.upperNum {
+.uppernum {
   color: gray;
   font-size: 20px;
   height: 20px;
 }
-.lowerNum {
-  color: black;
+.lowernum {
+  color: white;
   font-size: 30px;
   height: 30px;
 }
@@ -70,10 +70,13 @@ p {
     margin: 0.8em;
   }
   .upperNum {
+    color: gray;
+
     font-size: 15px;
     height: 15px;
   }
   .lowerNum {
+    color: white;
     font-size: 25px;
     height: 25px;
   }
