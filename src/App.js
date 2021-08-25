@@ -87,42 +87,28 @@ function App() {
 
   return (
     <section className={style.calc}>
-      <p
-        style={{ color: "gray", fontSize: "20px", height: "20px" }}
-        className="upperNum"
-      >
-        {upperNum}
-      </p>
-      <p
-        style={{ color: "white", fontSize: "30px", height: "30px" }}
-        className="lowerNum"
-      >
-        {lowerNum}
-      </p>
+      <p className={style.upperNum}>{upperNum}</p>
+      <p className={style.lowerNum}>{lowerNum}</p>
       <section>
         <Button
           text="AC"
           clickMe={() => display("AC")}
-          className={style.fourth}
-          style={{ margin: "0.6em" }}
+          className={style.firstRow}
         />
         <Button
           text="Del"
           clickMe={() => display("Del")}
-          className={style.fourth}
-          style={{ margin: "0.6em" }}
+          className={style.firstRow}
         />
         <Button
           text="("
           clickMe={() => display("(")}
-          className={style.fourth}
-          style={{ margin: "0.6em" }}
+          className={style.firstRow}
         />
         <Button
           text=")"
           clickMe={() => display(")")}
-          className={style.fourth}
-          style={{ margin: "0.6em" }}
+          className={style.firstRow}
         />
       </section>
       {number.map((element, index) => (

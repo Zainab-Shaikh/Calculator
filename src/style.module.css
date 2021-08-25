@@ -7,9 +7,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .calc {
+  margin-top: 3em;
   padding-top: 1em;
   background-color: black;
   border-radius: 20px;
@@ -20,16 +21,60 @@ button {
   border-color: grey;
   border: 2px solid black;
   box-shadow: 0 0 10px rgb(88, 87, 87);
-  border-radius: 100%;
+  border-radius: 50%;
   margin: 0.8em;
 }
 .fourth {
   background-color: darksalmon;
 }
-.margin-l {
-  margin: 2em;
-}
+
 p {
   text-align: right;
   margin: 1em;
+}
+.firstRow {
+  margin: 0.6em;
+  background-color: darksalmon;
+}
+.upperNum {
+  color: gray;
+  font-size: 20px;
+  height: 20px;
+}
+.lowerNum {
+  color: black;
+  font-size: 30px;
+  height: 30px;
+}
+@media (max-width: 1024px) {
+  button {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .calc {
+    padding-top: 1em;
+    padding: 0.3em;
+    margin-top: 2em;
+  }
+  button {
+    font-size: 1rem;
+    margin: 0.5em;
+    padding: 0.8em;
+  }
+  .firstRow {
+    margin: 0.3em;
+    padding: 0.8em;
+  }
+  p {
+    margin: 0.8em;
+  }
+  .upperNum {
+    font-size: 15px;
+    height: 15px;
+  }
+  .lowerNum {
+    font-size: 25px;
+    height: 25px;
+  }
 }
